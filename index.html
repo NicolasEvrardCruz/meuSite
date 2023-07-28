@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DaReal's page</title>
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+    <h2>Greetings! I'm Nicolas, but you can me</h2>
+    <div id="darealbox">
+    <h1>|[ DaReal ]|</h1>
+    </div>
+    <p>I'm currently <span id="age">?</span>, and I like to play games. Yeah, that's it (what did you expect, a book!?)</p>
+    <script>
+function getMyAge(){
+  const date_diff = Date.now() - +new Date(2007, 10, 5);
+  return Math.floor(date_diff / 3.154e10);
+}
+document.getElementById("age").textContent = getMyAge().toString();
+
+    </script>
+</body>
+</html>

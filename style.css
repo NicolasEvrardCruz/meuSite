@@ -1,0 +1,18 @@
+#darealbox{
+    font-size: 75px;
+    background-color: black;
+    border-radius: 15px;
+    width: fit-content;
+}
+:root{
+    font-family: monospace;
+    text-align: center;
+    color: azure;
+}
+body{
+    background-color: rgb(0,0,40);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
